@@ -1,0 +1,16 @@
+.loginMain{
+	margin: 150px auto 0;
+	width:300px;
+}
+
+.loginMain button{
+	width:100%;
+}
+
+.loginMain .layui-field-box{
+	padding: 20px;
+}
+
+.loginMain c{
+	500px;
+}
