@@ -18,7 +18,7 @@ public class HelloController {
       @RequestMapping(value="/mvc",method=RequestMethod.GET)    
         public String HelloWorld(Model model){    
             
-            model.addAttribute("message","Hello Spring MVC!!!");  //传参数给前端  
+            model.addAttribute("message","Hello Spring MVC!1!!");  //传参数给前端  
               
           //视图渲染，/WEB-INF/view/HelloWorld.jsp  
             return "Hello";  //页面的名称，根据此字符串会去寻找名为HelloWorld.jsp的页面  
